@@ -27,4 +27,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          -P./opml https://box.othing.xyz/realtime.opml.xml
+          wget -P./opml https://box.othing.xyz/realtime.opml.xml
