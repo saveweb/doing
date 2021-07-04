@@ -25,7 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Issue RSS Feed
-      # You may pin to the exact commit or the version.
-       # uses: botonomi/RSS@0ef8493af5852ea9e9412e07588e1c357371f9a5
-        uses: botonomi/RSS@1.1
+      - name: Run a multi-line script
+        run: |
+          -P./opml https://box.othing.xyz/realtime.opml.xml
