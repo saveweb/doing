@@ -1,6 +1,6 @@
 ---
 name: Add Issue
-about: 用中文提交建议，按 “Get started” 按钮开始提交此类 issue
+about: Add Issue
 title: "[站点名称]"
 assignees: ''
 
