@@ -2,11 +2,16 @@
 
 本仓库为 [saveweb/rss-list](https://github.com/saveweb/rss-list) 和 [saveweb.othing.xyz](https://saveweb.othing.xyz) 对应的维护仓库。
 
-每个博客事件请单独发一个 Issue，格式暂时参考 [#4](https://github.com/saveweb/doing/issues/4)。
+## Issue 发布及编辑规范草案
 
-博客 ID 可前往 [box.othing.xyz](https://box.othing.xyz) 获取，如：<https://box.othing.xyz/i/?get=f_1> 的 ID 是 1，<https://box.othing.xyz/i/?get=f_410> 的 ID 是 410。对于没有 ID 的博客，说明即可。
+- 每个博客事件请单独发一个 Issue
+    - Issue重用例外情况：
+        > 网站出现的状况与先前的 issue 相同（问题复现），比如，只是出现了简单的SSL到期这样的问题，可重用（reopen）之前的 issue 。对于**完全相同**的问题，用相同的 issue 可以减少 issues 数量以及让后期表格整理更容易。但需要注**保留 issue 的标签（tags），不到万不得已不能乱撤下标签并放上新标签**。
+        > 
+        > 假如是不同类型的问题。如先前是`ssl错误`而现在是`网站数据库错误`。则另开一个 issue。如果后续还出现了第二次的数据库出错，就 reopen 贴了`数据库错误`标签的 issue。
 
-> 如果博客有对应的上游列表，如 [timqian/chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs)，还需向上游发起 Pull Request 同步更改。
+- 博客 ID 可前往 [box.othing.xyz](https://box.othing.xyz) 获取，如：<https://box.othing.xyz/i/?get=f_1> 的 ID 是 1，<https://box.othing.xyz/i/?get=f_410> 的 ID 是 410。对于没有 ID 的博客，说明即可。
+- 如果博客有对应的上游列表，如 [timqian/chinese-independent-blogs](https://github.com/timqian/chinese-independent-blogs)，还需向上游发起 Pull Request 同步更改。
 
 ## 维护流程
 
