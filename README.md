@@ -1,4 +1,4 @@
-# Save The Web (Doing)
+# ![saveweb_Logo](https://avatars.githubusercontent.com/u/84891864?s=40&v=4)Save The Web (Doing)
 
 本仓库为 [saveweb/rss-list](https://github.com/saveweb/rss-list) 和 [saveweb.othing.xyz](https://saveweb.othing.xyz) 对应的维护仓库。
 
